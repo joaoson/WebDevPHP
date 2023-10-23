@@ -19,9 +19,12 @@
                 
                 echo "Salário base de cálculo: ". number_format($salario, 2, ',', ' ') ."<br>";
                 echo "Valor do imposto: " . number_format($irpf, 2, ',', ' ') . "<br>";
+
+                return [number_format($salario, 2, ',', ' '),number_format($irpf, 2, ',', ' ')];
             }
 
-            calcularImpostoRenda(16000,2,100,0);
-                ?>
+            list($salario,$imposto) = calcularImpostoRenda(16000,2,100,0);
+            echo $salario;
+            ?>
     </body>
     </html>
