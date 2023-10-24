@@ -9,10 +9,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./irpfcss/style.css">
-    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="assets/novoicone.ico">
+
+    <title>Imposto</title>
 </head>
 <body>
-    <main>
+    <main id="main">
         <form id="formulario" action="form.php" method="get">
         <div class="title">
                 <h1>Imposto </h1>
